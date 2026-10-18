@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ทางเข้าแสดงตนสมาชิกกลุ่ม LINE รองปลัด และบันทึกความประสงค์หน่วยงาน">
+  <meta name="referrer" content="no-referrer">
+  <title>แสดงตนสมาชิกกลุ่ม LINE รองปลัด</title>
+  <style>
+    :root { color-scheme: light; font-family: Tahoma, sans-serif; color: #1b3029; background: #f4f6f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.8; }
+    main { max-width: 600px; margin: 8vh auto; padding: 24px; }
+    .eyebrow { color: #16674d; font-size: 13px; font-weight: bold; }
+    h1 { font-size: clamp(30px, 7vw, 40px); line-height: 1.5; margin: 16px 0; }
+    .intro { color: #617169; }
+    .card { margin-top: 28px; padding: 26px; background: white; border: 1px solid #dce5df; border-radius: 20px; }
+    h2 { font-size: 20px; margin-top: 0; }
+    ol { padding-left: 24px; }
+    .button { display: block; margin-top: 24px; padding: 15px; border-radius: 12px; background: #16674d; color: white; text-align: center; text-decoration: none; font-weight: bold; }
+    .button:hover { background: #104e3a; }
+    .button:focus-visible { outline: 3px solid #86b99f; outline-offset: 4px; }
+    .note { font-size: 13px; color: #617169; margin-bottom: 0; }
+    footer { text-align: center; font-size: 12px; color: #617169; margin-top: 28px; }
+    @media (max-width: 420px) { main { margin-top: 24px; padding: 20px; } .card { padding: 22px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">ทะเบียนสมาชิก · รองปลัด</div>
+    <h1>แสดงตนสมาชิก<br>กลุ่ม LINE</h1>
+    <p class="intro">ยืนยันว่าคุณอยู่ในกลุ่มแล้ว<br>ส่วนความประสงค์หน่วยงาน ค่อยกรอกเมื่อพร้อม</p>
+    <section class="card" aria-labelledby="instructions">
+      <h2 id="instructions">เริ่มใช้งาน</h2>
+      <ol>
+        <li>กดปุ่มด้านล่างเพื่อเปิดระบบสมาชิก</li>
+        <li>เข้าสู่ระบบด้วยเบอร์โทรศัพท์และ PIN ส่วนตัว 6 หลักที่ผู้ดูแลส่งให้</li>
+        <li>ตรวจชื่อของคุณ แล้วกดยืนยันการแสดงตน</li>
+      </ol>
+      <a class="button" href="https://script.google.com/macros/s/AKfycbxonGjb5djpKOT-sVQlzKhCAadoP3vlxC8LB9Y13cVCIk-ET8nIyMRIS1rcZza2Z5Lt/exec" referrerpolicy="no-referrer">เข้าสู่ระบบสมาชิก</a>
+      <p class="note">ระบบจะเปิดบน Google Apps Script หากยังไม่มี PIN หรือลืม PIN กรุณาติดต่อผู้ดูแลกลุ่มทาง LINE ส่วนตัว</p>
+    </section>
+    <footer>กรุณาเก็บ PIN เป็นความลับ และไม่ส่งต่อให้ผู้อื่น</footer>
+  </main>
+</body>
+</html>
